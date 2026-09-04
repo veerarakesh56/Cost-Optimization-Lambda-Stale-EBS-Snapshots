@@ -1,5 +1,18 @@
 # AWS Cloud Cost Optimization - Eliminating Unused/Stale Resources
 
+> ### Attribution — this is a follow-along, not an original project
+>
+> The Lambda function and this README come from the AWS cost-optimization module of
+> **[iam-veeramalla/aws-devops-zero-to-hero](https://github.com/iam-veeramalla/aws-devops-zero-to-hero)**
+> by Abhishek Veeramalla. Credit for the material is his.
+>
+> I worked through it to learn Boto3 against the EC2/EBS APIs and how to schedule a Lambda,
+> and I keep the repo public as a record of that learning.
+>
+> My own engineering work is in **[warden](https://github.com/veerarakesh56/warden)** and
+> **[helios](https://github.com/veerarakesh56/helios)**.
+
+
 ![Cost-Optimization-Lambda](https://github.com/user-attachments/assets/64a48d6f-6206-4d35-bc28-57f1e09c0ecb)
 
 ## Detecting and Deleting Obsolete/Stale EBS Snapshots
